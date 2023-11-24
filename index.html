@@ -1,0 +1,33 @@
+<html>
+
+<head>
+  <title>
+  Projeto de Tabela de Jogos
+  </title>
+</head>
+
+<body>
+  <h1>Tabela dos Jogadores</h1>
+
+  <input type="text" id="campoJogador" placeholder="digite o nome do jogador(a) " />
+  <button onClick="criarJogador()">Adicionar novo jogador(a)</button>
+
+  <table style="width:100%">
+    <thead>
+      <tr>
+        <th>Nome</th>
+        <th>Vitórias</th>
+        <th>Empates</th>
+        <th>Derrotas</th>
+        <th>Pontuação Final</th>
+        <th colspan="5">Clique no resultado da rodada! </th>
+      </tr>
+    </thead>
+    <tbody id="tabelaJogador">
+
+    </tbody>
+  </table>
+  <button onClick="apagarJogadores()">Começar uma nova rodada</button>
+</body>
+
+</html>
